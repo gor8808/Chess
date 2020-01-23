@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace MicChess
+namespace MicChess.Figures
 {
     public class Quenn
     {

@@ -8,12 +8,12 @@ namespace MicChess
 
         public void InputCoordinate(char letterCoordinate,int y)
         {
-
             int x = CharToNumber(letterCoordinate);
             y -= 1;
             Coordinate[y, x] = 1;
             PrintBoard();
         }
+
         public void InputCoordinate()
         {
             Console.WriteLine(" Enter x Coordinate.");
@@ -24,6 +24,7 @@ namespace MicChess
             Coordinate[y, x] = 1;
             PrintBoard();
         }
+
         public void PrintBoard()
         {
             Console.WriteLine();
@@ -112,9 +113,10 @@ namespace MicChess
                     return '0';
             }
         }
+
         public int CharToNumber(char letter)
         {
-            switch (Char.ToUpper(letter))
+            switch (char.ToUpper(letter))
             {
                 case 'A':
                     return 0;

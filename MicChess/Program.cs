@@ -10,7 +10,6 @@ namespace MicChess
             chessBoard.InputCoordinate();
             Console.WriteLine();
             Console.WriteLine();
-            
         }
     }
 }
